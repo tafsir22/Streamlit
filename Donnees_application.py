@@ -201,7 +201,7 @@ elif page == "📋 Données Nettoyées":
     st.title("Visualisation des Données Nettoyées")
 
     # Définir le chemin vers le répertoire contenant les fichiers CSV préconfigurés
-    directory = "data/cleans"  # Adaptez ce chemin à votre configuration
+    directory = "cleans"  # Adaptez ce chemin à votre configuration
 
     # Récupération de la liste des fichiers CSV dans le répertoire
     try:
